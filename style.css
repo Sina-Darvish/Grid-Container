@@ -1,0 +1,19 @@
+.grid-container{
+display: grid;
+width: 100%;
+grid-template-areas: 'myItem myItem .' 'myItem myItem .' ;
+
+}
+.grid-item{
+   border: 3px dashed cornflowerblue;
+   font-size: 20px;
+   text-align: center;
+   padding: 50px;
+border-radius: 5px;
+margin: 5px;
+}
+.first-item{
+   grid-area: myItem;
+   line-height: 8;
+}
+
